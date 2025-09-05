@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.TextUtils;
 import android.text.style.ForegroundColorSpan;
+import android.text.Spannable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -203,7 +204,6 @@ public class SearchableSpinnerDialog<T> extends DialogFragment implements Search
                     View listView = super.getView(position, convertView, parent);
                     tvListItem = (TextView) listView;
                     tvListItem.setTypeface(typeface);
-                    SpannableString spannableString = new SpannableString(tvListItem.getText());
                     if (searchListItemBackgroundColor != 0) {
                         itemListContainer.setBackgroundColor(searchListItemBackgroundColor);
                     } else if (searchListItemBackgroundDrawable != null) {
