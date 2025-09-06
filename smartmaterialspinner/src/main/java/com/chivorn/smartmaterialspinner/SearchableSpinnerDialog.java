@@ -39,6 +39,16 @@ import java.util.List;
 import java.util.Locale;
 
 public class SearchableSpinnerDialog<T> extends DialogFragment implements SearchView.OnQueryTextListener, SearchView.OnCloseListener {
+    /**
+     * Resets the selected item and position, clearing any selection in the dialog.
+     */
+    public void resetSelection() {
+        selectedItem = null;
+        selectedPosition = -1;
+        if (searchArrayAdapter != null) {
+            searchArrayAdapter.notifyDataSetChanged();
+        }
+    }
     private static final String TAG = SearchableSpinnerDialog.class.getSimpleName();
     private static final String INSTANCE_LIST_ITEMS = "ListItems";
     private static final String INSTANCE_LISTENER_KEY = "OnSearchDialogEventListener";
