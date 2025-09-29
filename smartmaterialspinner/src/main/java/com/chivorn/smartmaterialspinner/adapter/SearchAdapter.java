@@ -17,7 +17,7 @@ import java.util.Locale;
 public class SearchAdapter<T> extends ArrayAdapter<T> implements Filterable {
     private Context context;
     private final List<T> itemList;
-    private List<T> itemListFiltered;
+    private volatile List<T> itemListFiltered;
 
     public SearchAdapter(@NonNull Context context, int resource, @NonNull List<T> objects) {
         super(context, resource, objects);
@@ -28,13 +28,18 @@ public class SearchAdapter<T> extends ArrayAdapter<T> implements Filterable {
 
     @Override
     public int getCount() {
-        return itemListFiltered != null ? itemListFiltered.size() : 0;
+        List<T> filtered = itemListFiltered;
+        return filtered != null ? filtered.size() : 0;
     }
 
     @Nullable
     @Override
     public T getItem(int position) {
-        return itemListFiltered != null ? itemListFiltered.get(position) : null;
+        List<T> filtered = itemListFiltered;
+        if (filtered != null && position >= 0 && position < filtered.size()) {
+            return filtered.get(position);
+        }
+        return null;
     }
 
     @NonNull
@@ -70,7 +75,11 @@ public class SearchAdapter<T> extends ArrayAdapter<T> implements Filterable {
                     "rawtypes"
             })
             protected void publishResults(CharSequence constraint, FilterResults results) {
-                itemListFiltered = (List<T>) results.values;
+                if (results != null && results.values != null) {
+                    itemListFiltered = (List<T>) results.values;
+                } else {
+                    itemListFiltered = new ArrayList<>();
+                }
                 notifyDataSetChanged();
             }
         };
