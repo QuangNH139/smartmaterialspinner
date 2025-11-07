@@ -6,9 +6,9 @@ import { isObservable, Observable } from 'rxjs';
   selector: 'formly-autocomplete',
   template: `
     <app-autocomplete-field
-      [placeholder]="to.placeholder || ''"
+      [placeholder]="to['placeholder'] || ''"
       [dropdown]="to['dropdown'] || false"
-      [minLength]="to.minLength || 1"
+      [minLength]="to['minLength'] || 1"
       [options]="getOptions()"
       [value]="formControl.value"
       (valueChange)="formControl.setValue($event)">
@@ -18,14 +18,14 @@ import { isObservable, Observable } from 'rxjs';
 })
 export class FormlyFieldAutoComplete extends FieldType {
   getOptions(): any[] | ((q: string) => Observable<any[]> | Promise<any[]> | any[]) {
-    if (!this.to.options) {
+    if (!this.to['options']) {
       return [];
     }
     
-    if (isObservable(this.to.options)) {
-      return () => this.to.options as Observable<any[]>;
+    if (isObservable(this.to['options'])) {
+      return () => this.to['options'] as Observable<any[]>;
     }
     
-    return this.to.options;
+    return this.to['options'];
   }
 }

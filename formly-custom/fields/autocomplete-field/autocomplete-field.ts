@@ -10,14 +10,12 @@ import {
 @Component({
   selector: 'app-autocomplete-field',
   templateUrl: './autocomplete-field.html',
-  styleUrl: './autocomplete-field.scss',
   standalone: false,
 })
 export class AutocompleteFieldComponent {
   @Input() placeholder = '';
   @Input() dropdown = false;
   @Input() minLength = 1;
-  @Input() field = 'label';
   @Input() options!:
     | ((q: string) => Observable<any[]> | Promise<any[]> | any[])
     | any[];
@@ -43,35 +41,29 @@ export class AutocompleteFieldComponent {
   }
 
   onComplete(event: any) {
-    const q = event?.query ?? '';
     this.loading = true;
-    this.query$.next(q);
+    this.query$.next(event?.query ?? '');
   }
 
-  fetchOptions(query: string): Observable<any[]> {
+  private fetchOptions(query: string): Observable<any[]> {
     if (!this.options) return of([]);
 
-    // static array
     if (Array.isArray(this.options)) {
       return of(
-        this.options.filter((i: any) =>
-          (i.label ?? i).toString().toLowerCase().includes(query.toLowerCase())
+        this.options.filter((item: any) =>
+          (item.label ?? item).toString().toLowerCase().includes(query.toLowerCase())
         )
       );
     }
 
-    // function
     if (typeof this.options === 'function') {
       const result = this.options(query);
 
       if (result instanceof Promise) return from(result);
       if (isObservable(result)) return result as Observable<any[]>;
       if (Array.isArray(result)) return of(result);
-
-      return of([]);
     }
 
-    // observable
     if (isObservable(this.options)) {
       return this.options as Observable<any[]>;
     }

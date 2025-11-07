@@ -4,7 +4,6 @@ import { Observable, of, from, isObservable } from 'rxjs';
 @Component({
   selector: 'app-select-field',
   templateUrl: './select-field.html',
-  styleUrl: './select-field.scss',
   standalone: false,
 })
 export class SelectFieldComponent {

@@ -1,18 +1,7 @@
 <div class="space-y-4 repeat-section">
-  <app-machine-card
-    *ngFor="let item of items; let i = index"
-    [title]="'Machine'"
-    [machineNumber]="i + 1"
-    [showRemoveButton]="true"
-    [removable]="true"
-    [collapsible]="true"
-    (remove)="remove.emit(i)"
-    class="machine-enter">
-    
-    <div class="space-y-4">
-      <ng-content select="[item-content]"></ng-content>
-    </div>
-  </app-machine-card>
+  <div *ngFor="let item of items; let i = index" class="machine-enter">
+    <ng-content select="[item-content]"></ng-content>
+  </div>
 
   <div class="flex justify-center pt-4 add-button-container">
     <button

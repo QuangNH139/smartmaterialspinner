@@ -6,9 +6,9 @@ import { FieldArrayType } from '@ngx-formly/core';
   template: `
     <app-repeat-section
       [items]="field.fieldGroup || []"
-      [addText]="to.addText"
-      [canAdd]="to.canAdd !== false"
-      [max]="to.max || Infinity"
+      [addText]="to['addText']"
+      [canAdd]="to['canAdd'] !== false"
+      [max]="to['max']"
       (add)="add()"
       (remove)="remove($event)">
       <ng-container *ngFor="let f of field.fieldGroup" item-content>
@@ -16,6 +16,7 @@ import { FieldArrayType } from '@ngx-formly/core';
       </ng-container>
     </app-repeat-section>
   `,
-  standalone:false
+  standalone: false
 })
-export class FormlyRepeatType extends FieldArrayType {}
+export class FormlyRepeatType extends FieldArrayType {
+}

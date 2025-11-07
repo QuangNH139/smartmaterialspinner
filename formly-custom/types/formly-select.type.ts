@@ -5,19 +5,15 @@ import { FieldType } from '@ngx-formly/core';
   selector: 'formly-select',
   template: `
     <app-select-field
-      [placeholder]="to.placeholder || ''"
-      [options]="to.options || []"
+      [placeholder]="to['placeholder'] || ''"
+      [options]="to['options'] || []"
       [filter]="to['filter'] || false"
       [showClear]="to['showClear'] || false"
       [value]="formControl.value"
-      (valueChange)="onSelected($event)">
+      (valueChange)="formControl.setValue($event)">
     </app-select-field>
   `,
-  standalone:false
+  standalone: false
 })
 export class FormlyFieldSelectComponent extends FieldType {
-  onSelected(val: any) {
-    this.formControl.setValue(val);
-    if (this.to['onSelectedStatusChange']) this.to['onSelectedStatusChange'](val);
-  }
 }

@@ -7,4 +7,3 @@ export * from './types/formly-select.type';
 export * from './types/formly-repeat.type';
 export * from './wrappers/formly-card-wrapper';
 export * from './formly-custom-module';
-export * from './examples/machine-config.component';
