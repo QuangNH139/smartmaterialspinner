@@ -1117,7 +1117,11 @@ export class DynamicFormComponent implements OnInit, OnDestroy {
       return !!signalLike.value;
     }
     
-    return field.canAdd !== false;
+    if (typeof field.canAdd === 'boolean') {
+      return field.canAdd;
+    }
+    
+    return true;
   }
 
   getFieldMaxItems(field: DynamicField): number {
