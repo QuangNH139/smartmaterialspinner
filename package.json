@@ -41,6 +41,9 @@
   },
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
-    "pack": "npm pack ./dist"
+    "pack": "npm pack ./dist",
+    "clean": "rm -rf dist node_modules package-lock.json",
+    "rebuild": "npm run clean && npm install && npm run build",
+    "verify": "npm run build && npm run pack"
   }
 }
