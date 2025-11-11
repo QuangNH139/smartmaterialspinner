@@ -1,0 +1,46 @@
+{
+  "name": "@quangnh139/smartmaterialspinner",
+  "version": "1.0.0",
+  "description": "A dynamic form component library for Angular with smart material design",
+  "keywords": [
+    "angular",
+    "dynamic-form",
+    "material",
+    "form-builder",
+    "primeng"
+  ],
+  "author": "QuangNH139",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuangNH139/smartmaterialspinner.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^17.0.0 || ^18.0.0",
+    "@angular/core": "^17.0.0 || ^18.0.0",
+    "@angular/forms": "^17.0.0 || ^18.0.0",
+    "primeng": "^17.0.0",
+    "primeicons": "^7.0.0",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.0.0",
+    "@angular/cli": "^17.0.0",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "ng-packagr": "^17.0.0",
+    "primeng": "^17.0.0",
+    "primeicons": "^7.0.0",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.6.0",
+    "typescript": "~5.2.0",
+    "zone.js": "^0.14.0"
+  },
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json",
+    "pack": "npm pack ./dist"
+  }
+}
