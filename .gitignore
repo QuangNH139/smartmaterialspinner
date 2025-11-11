@@ -23,3 +23,6 @@ out-tsc/
 *.log
 *.tmp
 .tmp/
+
+# Angular cache
+.angular/
