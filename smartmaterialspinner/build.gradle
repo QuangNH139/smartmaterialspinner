@@ -52,6 +52,11 @@ publishing {
             groupId PUBLISH_GROUP_ID
             artifactId PUBLISH_ARTIFACT_ID
             version PUBLISH_VERSION
+            
+            // Add the release component to publish the AAR
+            afterEvaluate {
+                from components.release
+            }
 
             // Configurações adicionais do POM
             pom {
