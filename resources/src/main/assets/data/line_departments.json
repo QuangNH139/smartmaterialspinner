@@ -1,0 +1,4572 @@
+[
+  {
+    "name": "Department 1",
+    "areas": [
+      {
+        "name": "Area 1-1",
+        "lines": [
+          {
+            "lineCd": "LINE-11-01",
+            "lineName": "Line 11-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-02",
+            "lineName": "Line 11-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-03",
+            "lineName": "Line 11-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-04",
+            "lineName": "Line 11-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-05",
+            "lineName": "Line 11-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-06",
+            "lineName": "Line 11-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-07",
+            "lineName": "Line 11-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-08",
+            "lineName": "Line 11-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-09",
+            "lineName": "Line 11-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-10",
+            "lineName": "Line 11-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-11",
+            "lineName": "Line 11-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-12",
+            "lineName": "Line 11-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-13",
+            "lineName": "Line 11-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-14",
+            "lineName": "Line 11-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-15",
+            "lineName": "Line 11-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-16",
+            "lineName": "Line 11-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-17",
+            "lineName": "Line 11-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-18",
+            "lineName": "Line 11-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-19",
+            "lineName": "Line 11-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-11-20",
+            "lineName": "Line 11-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Area 1-2",
+        "lines": [
+          {
+            "lineCd": "LINE-12-01",
+            "lineName": "Line 12-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-02",
+            "lineName": "Line 12-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-03",
+            "lineName": "Line 12-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-04",
+            "lineName": "Line 12-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-05",
+            "lineName": "Line 12-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-06",
+            "lineName": "Line 12-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-07",
+            "lineName": "Line 12-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-08",
+            "lineName": "Line 12-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-09",
+            "lineName": "Line 12-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-10",
+            "lineName": "Line 12-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-11",
+            "lineName": "Line 12-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-12",
+            "lineName": "Line 12-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-13",
+            "lineName": "Line 12-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-14",
+            "lineName": "Line 12-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-15",
+            "lineName": "Line 12-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-16",
+            "lineName": "Line 12-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-17",
+            "lineName": "Line 12-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-18",
+            "lineName": "Line 12-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-19",
+            "lineName": "Line 12-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-12-20",
+            "lineName": "Line 12-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Area 1-3",
+        "lines": [
+          {
+            "lineCd": "LINE-13-01",
+            "lineName": "Line 13-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-02",
+            "lineName": "Line 13-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-03",
+            "lineName": "Line 13-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-04",
+            "lineName": "Line 13-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-05",
+            "lineName": "Line 13-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-06",
+            "lineName": "Line 13-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-07",
+            "lineName": "Line 13-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-08",
+            "lineName": "Line 13-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-09",
+            "lineName": "Line 13-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-10",
+            "lineName": "Line 13-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-11",
+            "lineName": "Line 13-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-12",
+            "lineName": "Line 13-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-13",
+            "lineName": "Line 13-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-14",
+            "lineName": "Line 13-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-15",
+            "lineName": "Line 13-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-16",
+            "lineName": "Line 13-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-17",
+            "lineName": "Line 13-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-18",
+            "lineName": "Line 13-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-19",
+            "lineName": "Line 13-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-13-20",
+            "lineName": "Line 13-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Department 2",
+    "areas": [
+      {
+        "name": "Area 2-1",
+        "lines": [
+          {
+            "lineCd": "LINE-21-01",
+            "lineName": "Line 21-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-02",
+            "lineName": "Line 21-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-03",
+            "lineName": "Line 21-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-04",
+            "lineName": "Line 21-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-05",
+            "lineName": "Line 21-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-06",
+            "lineName": "Line 21-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-07",
+            "lineName": "Line 21-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-08",
+            "lineName": "Line 21-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-09",
+            "lineName": "Line 21-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-10",
+            "lineName": "Line 21-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-11",
+            "lineName": "Line 21-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-12",
+            "lineName": "Line 21-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-13",
+            "lineName": "Line 21-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-14",
+            "lineName": "Line 21-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-15",
+            "lineName": "Line 21-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-16",
+            "lineName": "Line 21-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-17",
+            "lineName": "Line 21-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-18",
+            "lineName": "Line 21-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-19",
+            "lineName": "Line 21-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-21-20",
+            "lineName": "Line 21-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Area 2-2",
+        "lines": [
+          {
+            "lineCd": "LINE-22-01",
+            "lineName": "Line 22-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-02",
+            "lineName": "Line 22-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-03",
+            "lineName": "Line 22-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-04",
+            "lineName": "Line 22-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-05",
+            "lineName": "Line 22-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-06",
+            "lineName": "Line 22-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-07",
+            "lineName": "Line 22-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-08",
+            "lineName": "Line 22-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-09",
+            "lineName": "Line 22-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-10",
+            "lineName": "Line 22-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-11",
+            "lineName": "Line 22-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-12",
+            "lineName": "Line 22-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-13",
+            "lineName": "Line 22-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-14",
+            "lineName": "Line 22-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-15",
+            "lineName": "Line 22-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-16",
+            "lineName": "Line 22-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-17",
+            "lineName": "Line 22-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-18",
+            "lineName": "Line 22-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-19",
+            "lineName": "Line 22-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-22-20",
+            "lineName": "Line 22-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Area 2-3",
+        "lines": [
+          {
+            "lineCd": "LINE-23-01",
+            "lineName": "Line 23-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-02",
+            "lineName": "Line 23-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-03",
+            "lineName": "Line 23-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-04",
+            "lineName": "Line 23-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-05",
+            "lineName": "Line 23-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-06",
+            "lineName": "Line 23-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-07",
+            "lineName": "Line 23-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-08",
+            "lineName": "Line 23-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-09",
+            "lineName": "Line 23-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-10",
+            "lineName": "Line 23-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-11",
+            "lineName": "Line 23-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-12",
+            "lineName": "Line 23-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-13",
+            "lineName": "Line 23-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-14",
+            "lineName": "Line 23-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-15",
+            "lineName": "Line 23-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-16",
+            "lineName": "Line 23-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-17",
+            "lineName": "Line 23-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-18",
+            "lineName": "Line 23-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-19",
+            "lineName": "Line 23-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-23-20",
+            "lineName": "Line 23-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Area 2-4",
+        "lines": [
+          {
+            "lineCd": "LINE-24-01",
+            "lineName": "Line 24-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-02",
+            "lineName": "Line 24-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-03",
+            "lineName": "Line 24-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-04",
+            "lineName": "Line 24-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-05",
+            "lineName": "Line 24-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-06",
+            "lineName": "Line 24-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-07",
+            "lineName": "Line 24-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-08",
+            "lineName": "Line 24-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-09",
+            "lineName": "Line 24-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-10",
+            "lineName": "Line 24-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-11",
+            "lineName": "Line 24-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-12",
+            "lineName": "Line 24-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-13",
+            "lineName": "Line 24-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-14",
+            "lineName": "Line 24-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-15",
+            "lineName": "Line 24-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-16",
+            "lineName": "Line 24-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-17",
+            "lineName": "Line 24-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-18",
+            "lineName": "Line 24-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-19",
+            "lineName": "Line 24-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-24-20",
+            "lineName": "Line 24-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Department 3",
+    "areas": [
+      {
+        "name": "Area 3-1",
+        "lines": [
+          {
+            "lineCd": "LINE-31-01",
+            "lineName": "Line 31-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-02",
+            "lineName": "Line 31-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-03",
+            "lineName": "Line 31-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-04",
+            "lineName": "Line 31-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-05",
+            "lineName": "Line 31-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-06",
+            "lineName": "Line 31-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-07",
+            "lineName": "Line 31-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-08",
+            "lineName": "Line 31-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-09",
+            "lineName": "Line 31-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-10",
+            "lineName": "Line 31-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-11",
+            "lineName": "Line 31-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-12",
+            "lineName": "Line 31-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-13",
+            "lineName": "Line 31-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-14",
+            "lineName": "Line 31-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-15",
+            "lineName": "Line 31-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-16",
+            "lineName": "Line 31-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-17",
+            "lineName": "Line 31-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-18",
+            "lineName": "Line 31-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-19",
+            "lineName": "Line 31-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-31-20",
+            "lineName": "Line 31-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Area 3-2",
+        "lines": [
+          {
+            "lineCd": "LINE-32-01",
+            "lineName": "Line 32-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-02",
+            "lineName": "Line 32-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-03",
+            "lineName": "Line 32-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-04",
+            "lineName": "Line 32-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-05",
+            "lineName": "Line 32-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-06",
+            "lineName": "Line 32-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-07",
+            "lineName": "Line 32-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-08",
+            "lineName": "Line 32-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-09",
+            "lineName": "Line 32-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-10",
+            "lineName": "Line 32-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-11",
+            "lineName": "Line 32-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-12",
+            "lineName": "Line 32-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-13",
+            "lineName": "Line 32-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-14",
+            "lineName": "Line 32-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-15",
+            "lineName": "Line 32-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-16",
+            "lineName": "Line 32-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-17",
+            "lineName": "Line 32-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-18",
+            "lineName": "Line 32-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-19",
+            "lineName": "Line 32-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-32-20",
+            "lineName": "Line 32-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Area 3-3",
+        "lines": [
+          {
+            "lineCd": "LINE-33-01",
+            "lineName": "Line 33-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-02",
+            "lineName": "Line 33-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-03",
+            "lineName": "Line 33-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-04",
+            "lineName": "Line 33-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-05",
+            "lineName": "Line 33-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-06",
+            "lineName": "Line 33-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-07",
+            "lineName": "Line 33-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-08",
+            "lineName": "Line 33-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-09",
+            "lineName": "Line 33-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-10",
+            "lineName": "Line 33-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-11",
+            "lineName": "Line 33-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-12",
+            "lineName": "Line 33-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-13",
+            "lineName": "Line 33-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-14",
+            "lineName": "Line 33-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-15",
+            "lineName": "Line 33-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-16",
+            "lineName": "Line 33-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-17",
+            "lineName": "Line 33-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-18",
+            "lineName": "Line 33-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-19",
+            "lineName": "Line 33-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-33-20",
+            "lineName": "Line 33-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Department 4",
+    "areas": [
+      {
+        "name": "Area 4-1",
+        "lines": [
+          {
+            "lineCd": "LINE-41-01",
+            "lineName": "Line 41-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-02",
+            "lineName": "Line 41-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-03",
+            "lineName": "Line 41-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-04",
+            "lineName": "Line 41-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-05",
+            "lineName": "Line 41-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-06",
+            "lineName": "Line 41-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-07",
+            "lineName": "Line 41-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-08",
+            "lineName": "Line 41-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-09",
+            "lineName": "Line 41-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-10",
+            "lineName": "Line 41-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-11",
+            "lineName": "Line 41-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-12",
+            "lineName": "Line 41-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-13",
+            "lineName": "Line 41-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-14",
+            "lineName": "Line 41-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-15",
+            "lineName": "Line 41-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-16",
+            "lineName": "Line 41-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-17",
+            "lineName": "Line 41-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-18",
+            "lineName": "Line 41-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-19",
+            "lineName": "Line 41-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-41-20",
+            "lineName": "Line 41-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Area 4-2",
+        "lines": [
+          {
+            "lineCd": "LINE-42-01",
+            "lineName": "Line 42-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-02",
+            "lineName": "Line 42-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-03",
+            "lineName": "Line 42-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-04",
+            "lineName": "Line 42-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-05",
+            "lineName": "Line 42-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-06",
+            "lineName": "Line 42-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-07",
+            "lineName": "Line 42-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-08",
+            "lineName": "Line 42-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-09",
+            "lineName": "Line 42-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-10",
+            "lineName": "Line 42-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-11",
+            "lineName": "Line 42-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-12",
+            "lineName": "Line 42-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-13",
+            "lineName": "Line 42-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-14",
+            "lineName": "Line 42-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-15",
+            "lineName": "Line 42-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-16",
+            "lineName": "Line 42-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-17",
+            "lineName": "Line 42-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-18",
+            "lineName": "Line 42-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-19",
+            "lineName": "Line 42-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-42-20",
+            "lineName": "Line 42-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Area 4-3",
+        "lines": [
+          {
+            "lineCd": "LINE-43-01",
+            "lineName": "Line 43-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-02",
+            "lineName": "Line 43-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-03",
+            "lineName": "Line 43-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-04",
+            "lineName": "Line 43-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-05",
+            "lineName": "Line 43-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-06",
+            "lineName": "Line 43-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-07",
+            "lineName": "Line 43-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-08",
+            "lineName": "Line 43-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-09",
+            "lineName": "Line 43-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-10",
+            "lineName": "Line 43-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-11",
+            "lineName": "Line 43-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-12",
+            "lineName": "Line 43-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-13",
+            "lineName": "Line 43-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-14",
+            "lineName": "Line 43-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-15",
+            "lineName": "Line 43-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-16",
+            "lineName": "Line 43-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-17",
+            "lineName": "Line 43-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-18",
+            "lineName": "Line 43-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-19",
+            "lineName": "Line 43-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-43-20",
+            "lineName": "Line 43-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Area 4-4",
+        "lines": [
+          {
+            "lineCd": "LINE-44-01",
+            "lineName": "Line 44-1",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-02",
+            "lineName": "Line 44-2",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-03",
+            "lineName": "Line 44-3",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-04",
+            "lineName": "Line 44-4",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-05",
+            "lineName": "Line 44-5",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-06",
+            "lineName": "Line 44-6",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-07",
+            "lineName": "Line 44-7",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-08",
+            "lineName": "Line 44-8",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-09",
+            "lineName": "Line 44-9",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-10",
+            "lineName": "Line 44-10",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-11",
+            "lineName": "Line 44-11",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 5,
+                "statusName": "Setup",
+                "color": "#0000FF",
+                "description": "Line in setup mode",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-12",
+            "lineName": "Line 44-12",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-13",
+            "lineName": "Line 44-13",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-14",
+            "lineName": "Line 44-14",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-15",
+            "lineName": "Line 44-15",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-16",
+            "lineName": "Line 44-16",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 1,
+                "statusName": "Running",
+                "color": "#00FF00",
+                "description": "Line is running",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": true,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-17",
+            "lineName": "Line 44-17",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-18",
+            "lineName": "Line 44-18",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 4,
+                "statusName": "Idle",
+                "color": "#808080",
+                "description": "Line is idle",
+                "reasonResponses": null,
+                "hasReason": false,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-19",
+            "lineName": "Line 44-19",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 2,
+                "statusName": "Stopped",
+                "color": "#FF0000",
+                "description": "Line is stopped",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          },
+          {
+            "lineCd": "LINE-44-20",
+            "lineName": "Line 44-20",
+            "lineState": {
+              "statusResponse": {
+                "statusId": 3,
+                "statusName": "Maintenance",
+                "color": "#FFFF00",
+                "description": "Line under maintenance",
+                "reasonResponses": null,
+                "hasReason": true,
+                "isProduction": false,
+                "statusesChild": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
